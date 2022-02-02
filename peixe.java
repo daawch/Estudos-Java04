@@ -4,6 +4,16 @@ public class peixe extends animal
 {
 	private String acao;
 	
+	
+	@Override
+	public void som()
+	{
+		super.som();
+		
+		System.out.println("ronco...");
+	}
+	
+	
 	public String getAcao()
 	{
 		return acao;

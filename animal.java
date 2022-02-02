@@ -6,6 +6,10 @@ public class animal
 	private String nome;
 	private String som;
 	
+	public void som()
+	{
+		
+	}
 	public int getIdade()
 	{
 		return idade;

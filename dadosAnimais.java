@@ -13,20 +13,27 @@ public class dadosAnimais
 		gato.setIdade(5);
 		gato.setNome("zorro");
 		
+		
+		
 		peixe.setAcao("nada");
 		peixe.setIdade(1);
 		peixe.setNome("peixonauta");
+		
 		
 		passaro.setAcao("voa");
 		passaro.setIdade(2);
 		passaro.setNome("chiquinho gavião");
 		
 		
-	System.out.println("nome do seu gato: "+gato.getNome()+", ele tem "+gato.getIdade()+" anos"+", e ele "+gato.getAcao()+"\n");
+		
+	System.out.print("nome do seu gato: "+gato.getNome()+", ele tem "+gato.getIdade()+" anos"+", ele "+gato.getAcao()+", e ele emite o som de ");
+	gato.som();
 	
-	System.out.println("nome do seu peixe: "+peixe.getNome()+", ele tem "+peixe.getIdade()+" ano, "+"e ele "+peixe.getAcao()+"\n");
+	System.out.print("nome do seu peixe: "+peixe.getNome()+", ele tem "+peixe.getIdade()+" ano, "+" ele "+peixe.getAcao()+", e ele emite o som de ");
+	peixe.som();
 	
-	System.out.println("nome do seu passaro: "+passaro.getNome()+", ele tem "+passaro.getIdade()+" anos, "+"e ele "+passaro.getAcao());
+	System.out.print("nome do seu passaro: "+passaro.getNome()+", ele tem "+passaro.getIdade()+" anos, "+" ele "+passaro.getAcao()+", e ele emite o som de ");
+	passaro.som();
 	
 	}
 	

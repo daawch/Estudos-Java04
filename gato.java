@@ -6,6 +6,16 @@ public class gato extends animal
 {
 	private String acao;
 	
+	@Override
+	public void som()
+	{
+		super.som();
+		
+		System.out.println("miado...");
+	}
+	
+	
+	
 		public String getAcao()
 		{
 			return acao;

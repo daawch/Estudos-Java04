@@ -4,6 +4,15 @@ public class passaro extends animal
 {
 	private String acao;
 	
+	@Override
+	public void som()
+	{
+		super.som();
+		
+		System.out.println("canto...");
+	}
+	
+	
 	public String getAcao()
 	{
 		return acao;
